@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <!-- Incluir el fragmento de Bootstrap -->
+    <div th:replace="~{fragmentos :: head}"></div>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Bienvenido a Práctica 01</h1>
+        <p class="text-center">Este es un proyecto Spring Boot con Bootstrap.</p>
+    </div>
+    <!-- Incluir el fragmento de Bootstrap (JS) -->
+    <div th:replace="~{fragmentos :: body}"></div>
+</body>
+</html>
